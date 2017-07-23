@@ -1,0 +1,22 @@
+-muwx
+-i timer.ihx
+-M
+-Y
+-I 0x0100
+-C 0x1000
+-b HOME = 0x0000
+-b DSEG = 0x0030
+-b XSEG = 0x0001
+-b PSEG = 0x0001
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-b SSEG = 0x0030
+-k C:\Program Files\SDCC\bin\..\lib\small
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+timer.rel
+
+-e
